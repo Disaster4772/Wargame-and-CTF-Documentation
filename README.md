@@ -8,5 +8,5 @@ A centralized repository dedicated to documenting my solutions, methodology, and
 
 | Platform | Challenge Series | Target Focus | Progress | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| **OverTheWire** | [Bandit](./OverTheWire/bandit.md) | Linux Basics | Levels 0 - 20 | In Progress |
-| **OverTheWire** | [Natas](./OverTheWire/natas.md) | Web Security | Levels 0 - 20 | In Progress |
+| **OverTheWire** | [Bandit](./OverTheWire/Bandit/bandit.md) | Linux Basics | Levels 0 - 20 | In Progress |
+| **OverTheWire** | [Natas](./OverTheWire/Natas/natas.md) | Web Security | Levels 0 - 20 | In Progress |
