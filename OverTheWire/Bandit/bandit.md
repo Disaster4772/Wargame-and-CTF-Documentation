@@ -13,3 +13,6 @@
 | **9 -> 10** | `strings data.txt \| grep "=="` | Extracted human-readable text from a binary file, filtering for the password preceded by '=' characters. |
 | **10 -> 11** | `base64 -d data.txt` | Decoded a text block containing base64-encoded data to reveal the cleartext password. |
 | **11 -> 12** | `tr 'A-Za-z' 'N-ZA-Mn-za-m'` | Decorrupted a text file by shifting alphabetic characters 13 positions using a ROT13 cipher bypass. |
+| **12 → 13** | ``xxd``, ``gzip``, ``bzip2``, ``tar`` | Reversed a hexdump back into binary, then repeatedly identified and decompressed nested archive formats (gzip, bzip2, tar) until reaching the final plaintext password. |
+| **13 → 14** | ``scp <key>``, ``ssh <key>`` | Copied the provided private SSH key from the remote server to the local machine using ``scp``, then authenticated into the next level using the key instead of a password. |
+| **14 → 15** | ``nc <port>`` | Connected to the local service running on a specified port using (netcat), then submitted the current level’s password to receive the next one. |
